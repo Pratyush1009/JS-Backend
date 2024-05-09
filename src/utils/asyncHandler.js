@@ -12,7 +12,7 @@ export default asyncHandler
 // const asyncHandler = () => {}
 // const asyncHandler = (func) => () => {}
 
-// Higher Order function which accept function as an arguement
+// Higher Order function are functions which accept function as an arguement and also can return func
 // const asyncHandler = (func) => async() => {}
 
 /* Using TryCatch

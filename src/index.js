@@ -1,9 +1,9 @@
-import dotenv from "dotenv"
+import dotenv from "dotenv";
     /* Does this experimental bit for consistency in code, 
     instead of require for dotenv we can use import dotenv. Ref - Line 8 package.json */
 
-import connectDB from "./db/connectDB.js";
 import app from "./app.js";
+import connectDB from "./db/connectDB.js";
 
 dotenv.config({
     path: './env'
